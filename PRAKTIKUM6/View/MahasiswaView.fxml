@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" 
+      prefHeight="400.0" prefWidth="302.0" 
+      xmlns="http://javafx.com/javafx/21" 
+     xmlns:fx="http://javafx.com/fxml/1" 
+      fx:controller="application.PRAKTIKUM6.Controller.MahasiswaViewController">
+<children>
+      <TableView fx:id="tableView" prefHeight="400.0" prefWidth="300.0">
+        <columns>
+          <TableColumn fx:id="nimCol" prefWidth="100.0" text="NIM" />
+          <TableColumn fx:id="namaCol" prefWidth="200.0" text="Nama" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>
